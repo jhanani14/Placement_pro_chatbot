@@ -1,0 +1,125 @@
+# ========== NODE.JS (FRONTEND) ==========
+/frontend/node_modules
+/frontend/dist
+/frontend/build
+
+# npm and yarn lock files
+/frontend/package-lock.json
+/frontend/yarn.lock
+
+# npm cache
+.npm
+.eslintcache
+
+# ========== VITE BUILD ==========
+/frontend/dist
+
+# ========== LOGS ==========
+*.log
+npm-debug.log*
+npm-error.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ========== PYTHON (BACKEND) ==========
+# Virtual environments
+/backend/venv
+/backend/env
+/backend/ENV
+/backend/env.bak
+/backend/venv.bak
+backend/lib/
+backend/Scripts/
+
+# Python cache
+**/__pycache__/
+**/*.py[cod]
+**/*.so
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy and type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# ========== ENVIRONMENT FILES ==========
+.env
+.env.local
+.env.production.local
+.env.development.local
+.env.test.local
+.env.*.local
+.env.*.example
+
+# ========== IDE AND EDITOR ==========
+.vscode/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+.idea_modules/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# ========== OS FILES ==========
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ========== DATABASES ==========
+*.db
+*.sqlite
+*.sqlite3
+
+# ========== TEMP AND CACHE ==========
+.cache/
+.tmp/
+tmp/
+temp/
+*.tmp
+
+# ========== COVERAGE ==========
+coverage/
+.coverage*
+htmlcov/
+.hypothesis/
+
+# ========== VENV SPECIFIC ==========
+Scripts/
+Lib/
+Include/
+pyvenv.cfg
+
+# ========== MISC ==========
+.DS_Store
+*.orig
+.history/
+dist/
