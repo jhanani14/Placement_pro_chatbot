@@ -188,12 +188,5 @@ http://localhost:5173
 
 ---
 
-## Notes
-
-- The resume parser uses simple keyword extraction and is not a full resume analysis engine.
-- The chatbot is rule-based and replies based on keyword matching only.
-- Answer evaluation compares the user response to fixed "ideal answers".
-
----
 
 
